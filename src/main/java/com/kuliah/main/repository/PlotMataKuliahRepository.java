@@ -1,5 +1,6 @@
 package com.kuliah.main.repository;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 import com.kuliah.main.entity.PlotMataKuliah;

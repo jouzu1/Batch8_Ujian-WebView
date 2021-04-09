@@ -25,7 +25,7 @@ public class SoalPage {
 	public String viewIndexSoal(Model model) {
 		
 		model.addAttribute("listSoal",modelSoal.getAllSoal());
-		model.addAttribute("active",5);
+		model.addAttribute("active",4);
 		return "view_soal";
 	}
 	

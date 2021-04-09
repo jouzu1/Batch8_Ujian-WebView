@@ -35,7 +35,7 @@ public class PertanyaanPage {
 	@GetMapping("/pertanyaan/view")
 	public String viewIndexPertanyaan(Model model) {
 		model.addAttribute("listpertanyaan",modelPertanyaan.getAllPertanyaan());
-		model.addAttribute("active",4);
+		model.addAttribute("active",5);
 		return "view_pertanyaan";
 	}
 	
